@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    min-height: 133vh;
+}
+
+.left {
+    float: left;
+    background: #003140;
+    height: 100%;
+    width: 24%;
+}
+
+.left-content h1 {
+    color: white;
+    margin-left: 8px;    
+}
+
+.left-content h3 {
+    color: white;
+    margin-left: 8px;
+}
+
+.left-content h2 {
+    color: white;
+    padding-left: 8px;
+    background-color: #055871;
+}
+
+.right {
+    float: right;
+    background: white;
+    height: 100%;
+    width: 76%;
+}
+
+.left-content th {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.left-content img {
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 10%;
+    width: 75%;
+    height: 30%;
+}
+
+.right hr {
+    width: 97%
+}
+
+.right h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.right .right-content {
+    margin-left: 10px;
+}
+
+.proj1-right, .proj2-right {
+    float: right;
+    width: 80%;
+}
+
+.proj1-left, .proj2-left {
+    float: left;
+    width: 20%;
+}
+
+.proj1-right-content, .proj2-right-content {
+    margin-left: 30px;
+}
+
+.proj1-left {
+    height: 189.91px;
+    float: left;
+    width: 20%;
+}
+
+.proj1 {
+    margin-bottom: auto;
+}
+
+.menu {
+    background: #003140;
+    height: 55px;
+    
+}
+
+.tr-menu, .tbody-menu, .table-menu {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.th-menu {
+    font-size: 30px;
+    width: 20%;
+}
+
+.th-menu:hover {
+    background: linear-gradient(#055067, #0f97c0);
+}
+
+.table-menu {
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+.a-menu {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+.foot {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #003140;
+    color: white;
+    padding: 3px 0;
+    text-align: center;
+}

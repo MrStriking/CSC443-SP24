@@ -1,0 +1,6 @@
+#tejhiz
+    ra2m i=0
+    ra2m j=0
+#barmajeh
+    min i=42 la 7:
+        j=j+3

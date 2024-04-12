@@ -1,0 +1,117 @@
+html, body{
+    margin: 0;
+    color: white;
+    background-color: rgb(47, 47, 47);
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    scroll-behavior: smooth;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#code_input{
+    width: 95%;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    resize: none;
+    height: 75%;
+    border: 1px solid red;
+    background-color: rgb(47, 47, 47);
+    color: white;
+    font-size: 2rem;
+    outline: none;
+}
+
+#code_input:focus{
+    border: 1px solid lime;
+}
+
+#run{
+    padding: 1rem;
+    border: none;
+    outline: none;
+    width: 20rem;
+    color: black;
+    background-color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all .3s;
+    display: block;
+    margin: 0 auto;
+}
+
+#run:focus{
+    border: 1px solid lime;
+}
+
+#run:hover, #run:focus{
+    transform: scale(110%);
+}
+
+#assemblyCode{
+    text-align: start;
+    font-size: 1.3rem;
+    margin: 2.5rem;
+}
+
+#copy_btn, #download_btn{
+    border: none;
+    outline: none;
+    width: 20rem;
+    height: 2.8rem;
+    font-size: 30px;
+    margin: 1rem;
+    cursor: pointer;
+    transition: all .5s;
+    display: none;
+}
+
+#copy_btn:focus, #download_btn:focus{
+    transform: scale(105%);
+}
+
+#download_btn{
+    background-color: rgb(0, 89, 255);
+    color: white;
+}
+
+#download_btn:hover{
+    box-shadow: 0px 0px 32px 12px rgb(0,89,225,0.67);
+    -webkit-box-shadow: 0px 0px 32px 12px rgb(0,89,225,0.67);
+    -moz-box-shadow: 0px 0px 32px 12px rgb(0,89,225,0.67);
+}
+
+#download_btn:focus{
+    box-shadow: 0px 0px 32px 12px rgb(0,89,225,0.67);
+    -webkit-box-shadow: 0px 0px 32px 12px rgb(0,89,225,0.67);
+    -moz-box-shadow: 0px 0px 32px 12px rgb(0,89,225,0.67);
+}
+
+#copy_btn:hover{
+    box-shadow: 0px 0px 32px 12px rgba(255, 255, 255, 0.37);
+    -webkit-box-shadow: 0px 0px 32px 12px rgba(255, 255, 255, 0.37);
+    -moz-box-shadow: 0px 0px 32px 12px rgba(255, 255, 255, 0.37);
+}
+
+#copy_btn:focus{
+    box-shadow: 0px 0px 32px 12px rgba(255, 255, 255, 0.37);
+    -webkit-box-shadow: 0px 0px 32px 12px rgba(255, 255, 255, 0.37);
+    -moz-box-shadow: 0px 0px 32px 12px rgba(255, 255, 255, 0.37);
+}
+
+input::file-selector-button {
+    font-weight: bold;
+    color: dodgerblue;
+    padding: 0.5em;
+    border: thin solid grey;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 1rem;
+}
+@media only screen and (max-width: 300px) {
+    #assemblyCode{
+        width: 80%;
+    }
+}
+
