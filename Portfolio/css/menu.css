@@ -1,0 +1,82 @@
+.menu {
+    background: #003140;
+    height: 55px;
+    
+}
+
+.tr-menu, .tbody-menu, .table-menu {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.th-menu {
+    font-size: 30px;
+    width: 20%;
+}
+
+.th-menu:hover {
+    background: linear-gradient(#055067, #0f97c0);
+}
+
+.table-menu {
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+.a-menu {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+.foot {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #003140;
+    color: white;
+    padding: 3px 0;
+    text-align: center;
+}
+
+.copyright {
+    float: left;
+    width: 90%;
+}
+
+.logout {
+    float: right;
+}
+
+input {
+    margin-bottom: 5px;
+    background-color: #076986;
+    border-radius: 5px;
+    color:white;
+    border-color: #003140;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 17px;
+}
+
+input:hover {
+    cursor: pointer;
+    background: linear-gradient(#055067, #0f97c0);
+}
+
+.copyright h3 {
+    margin-left: 154px;
+}
+
+.welcome {
+    float: right;
+    width: 100%;
+}
+
+.welcome h3 {
+    color: white;
+    margin-right: 10px;
+    float: right;
+}

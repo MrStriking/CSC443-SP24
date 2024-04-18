@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #076986;
+}
+
+.whole {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Gallery img {
+    border-style: double;
+    border-width: 10px;
+    border-color: black;
+    border-radius: 30%;
+    width: 400px;
+    height: 250px;
+    margin: 5px;
+}
+
+.Gallery img:hover {
+    border-color: white;
+}

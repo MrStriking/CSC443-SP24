@@ -1,0 +1,6 @@
+Username, Password, Firstname, Lastname, Date of Birth, Sex
+
+striking, asd, omar, mayassi, 4/23/2000, m
+
+sada, qwer, jadbe, fox, 2/10/2010, f
+

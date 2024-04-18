@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background: #076986;
+}
+
+.proj1 {
+    float: left;
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.proj2 {
+    float: right;
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+img {
+    width: 35%;
+    height: 35%;
+    border-radius: 30%;
+    border-style: double;
+    border-width: 10px;
+    border-color: #003140;
+    transition: transform 0.45s ease;
+}
+
+img:hover {
+    transform: scale(1.15);
+    border-color: white;  
+}
+
+.welcome {
+    margin-bottom: 60px;
+}
